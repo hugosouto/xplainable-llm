@@ -14,7 +14,7 @@ for i in range(n_sentences):
             {"role": "user", "content": f"The {word}"}
         ],
         response_format={"type": "text"},
-        temperature=0.05,
+        temperature=1.6,
         max_completion_tokens=50,
         top_p=1,
         frequency_penalty=0,
