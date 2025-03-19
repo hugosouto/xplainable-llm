@@ -23,6 +23,5 @@ for i in range(n_sentences):
     )
     sentences.append(completion.choices[0].message.content)
 
-# print(completion.choices[0].message.content)
 for sentence in sentences:
     print(sentence)
